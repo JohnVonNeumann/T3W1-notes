@@ -17,3 +17,22 @@
 ###https://www.developphp.com/video/JavaScript/Digital-Clock-Tutorial-Custom-Animated-Clock
 > Tutorial used to complete the digital clock challenge
 > GH Link: https://github.com/JohnVonNeumann/digital-clock_js.git
+
+###https://github.com/getify/You-Dont-Know-JS
+> Free online book with challenges similar to that of LRTHW or Michael Hartl's Rails stuff, working through some of the challenges.
+
+
+## Day 2 - Tuesday 6th Nov
+
+>Today our lecture is on Callback Functions.
+
+### Reading through EJS - http://eloquentjavascript.net/01_values.html
+
+> Bits are organised and represented as 0's or 1's. In this case, creating numbers in binary operates by using powers of 2, each digit from right to left increases the "underlying value we seek in legitimate humanly understood numbers" by a factor of two.
+
+#### An example of the number 431 in binary:
+
+> 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+>  0  |  1  |  1  | 0  | 1  | 0  | 1 | 1 | 1 | 1 |
+__________________________________________________
+> 431 = 0110101111
