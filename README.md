@@ -1,6 +1,49 @@
 # Term 3 Week 1 Notes
 ##### How to format a readme - https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
+## What the fuck is Javascript? - https://organicdonut.com/2013/08/technical-understanding-javascript-node-js-and-their-libraries/
+
+### Javascript
+> JS is a programming language for use in web browsers, it was once a "scripting language", now it is just a full language.
+> It is used to maniuplate the DOM or "Document Object Model". The elements on a webpage.
+> It is fully client side. The browser handles and runs the code, everything happens inside a sandbox.
+
+### AJAX
+> AJAX stands for "Asynchronous Javascript and XML".
+> It is a for webpages to send and recieve data without refreshing the page.
+> XML is a markup language like HTML.
+> Has uses in combination with JSON and it allows us to package the data properly, then utlise AJAX with it.
+
+### jQuery
+> jQuery is a library built for JS to automate and simplify common tasks.
+> Took off as it was so useful with old browsers.
+> Mainly used for animation and AJAX, which are difficult to do with vanilla JS.
+
+### AngularJS
+> Angular is a full frontend MVC framework for JS web apps.
+> Built by google.
+> Provides a quick way of building large single page web apps.
+> Included on pages like jQuery inside <script> tags.
+> Unlike jQuery though, it is meant to be used as a full framework for an entire web app to use.
+> In order to understand Angular, you need to get JS first, as it requires a deep understanding of prototyping, scope and other vanilla JS aspects.
+
+### Node.js
+> Does not run in thw browser.
+> Command line tool that runs JS on a machine without needing to run in the browser.
+> Before Node.js, developers had to use different lanugages for the back end, like PHP, Java or ASP.net.
+> Now Node.js allows people to learn one language only.
+
+### Summary
+>JavaScript is a language written for websites to run in the client’s browser.
+
+>AJAX is a way for JavaScript to request data from a server without refreshing the page or blocking the application.
+
+>jQuery is a JavaScript library built to automate and simplify common web tasks like AJAX or animation.
+
+>Angular is a hip JavaScript framework which is made for building large, single-page web applications.
+
+>Node.js allows JavaScript to be run without a browser, and is commonly used to run web servers.
+
 ## Day 1 - Monday 5th Nov
 
 >Going through some node stuff today, first day of learning MEAN stack. Have installed new docsets for various JS languages.
@@ -65,3 +108,25 @@ __________________________________________________
 >Allows us to write code that generates an interface to interact with.
 
 ### Node.js Youtube Explanation - https://www.youtube.com/watch?v=KsjrN-T3ZCs&index=3&list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_#t=135.81712
+
+### Node.js Video Notes
+
+#### when we use == vs ===
+* == compares values
+> for example: 'console.log(19 == "19"); // true '
+* === compares values AND types
+> for example: 'console.log(19 === "19"); // false '
+
+#### this - https://youtu.be/uiZxziF4Ol8?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_
+
+> when we call 'this', it only refers to the thing that called it
+> 'this' is the js equivalent of 'self' in ruby, it's similar to that of an instance var, basically
+> it's default is a global call, as if it is not being called by something, it reverts to global calling.
+> an example, Louis.printFirstName(); // 'this' is called on Louis.
+> an example, printFirstName();       // 'this' is called globally
+
+#### prototype - https://youtu.be/IW2M8G8uJ6o?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_
+
+>prototyping allows us to add functions on the fly to models we've already created
+> example: User.prototype.magic  = 60;
+> User would have been previously created, it allows us to create a new function that pertains to a model without having to edit the original model
