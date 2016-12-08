@@ -21,7 +21,9 @@
 
 ### AngularJS
 > Angular is a full frontend MVC framework for JS web apps.
+
 > Built by google.
+
 > Provides a quick way of building large single page web apps.
 > Included on pages like jQuery inside <script> tags.
 > Unlike jQuery though, it is meant to be used as a full framework for an entire web app to use.
@@ -29,8 +31,11 @@
 
 ### Node.js
 > Does not run in thw browser.
+
 > Command line tool that runs JS on a machine without needing to run in the browser.
+
 > Before Node.js, developers had to use different lanugages for the back end, like PHP, Java or ASP.net.
+
 > Now Node.js allows people to learn one language only.
 
 ### Summary
